@@ -1,0 +1,474 @@
+DotNetEngineeringLab
+│
+├── src
+│
+│   ├── CSharp
+│   │
+│   │   ├── CSharp1-Legacy
+│   │   │   ├── Operators
+│   │   │   ├── Strings
+│   │   │   ├── Arrays
+│   │   │   ├── Collections
+│   │   │   │   ├── ArrayList
+│   │   │   │   ├── Hashtable
+│   │   │   │   ├── Queue
+│   │   │   │   └── Stack
+│   │   │   ├── Delegates
+│   │   │   ├── Events
+│   │   │   ├── Interfaces
+│   │   │   ├── Structs
+│   │   │   ├── Enums
+│   │   │   ├── BoxingAndUnboxing
+│   │   │   ├── Exceptions
+│   │   │   ├── IDisposable
+│   │   │   ├── Finalizers
+│   │   │   └── GarbageCollectionBasics
+│   │   │
+│   │   ├── CSharp2-GenericsAndIterators
+│   │   │   ├── Generics
+│   │   │   │   ├── GenericClasses
+│   │   │   │   ├── GenericMethods
+│   │   │   │   ├── Constraints
+│   │   │   │   ├── Covariance
+│   │   │   │   ├── Contravariance
+│   │   │   │   └── OpenVsClosedGenerics
+│   │   │   ├── NullableTypes
+│   │   │   ├── Iterators
+│   │   │   ├── YieldReturn
+│   │   │   ├── PartialClasses
+│   │   │   └── AnonymousMethods
+│   │   │
+│   │   ├── CSharp3-LINQAndFunctional
+│   │   │   ├── LINQ
+│   │   │   │   ├── IEnumerable
+│   │   │   │   ├── IQueryable
+│   │   │   │   ├── DeferredExecution
+│   │   │   │   ├── ImmediateExecution
+│   │   │   │   ├── Projection
+│   │   │   │   ├── Grouping
+│   │   │   │   ├── Joins
+│   │   │   │   ├── Subqueries
+│   │   │   │   ├── ExpressionTrees
+│   │   │   │   └── LINQInternals
+│   │   │   ├── LambdaExpressions
+│   │   │   │   ├── Closures
+│   │   │   │   ├── CapturedVariables
+│   │   │   │   ├── FuncActionPredicate
+│   │   │   │   └── ExpressionLambdas
+│   │   │   ├── ExtensionMethods
+│   │   │   ├── AnonymousTypes
+│   │   │   ├── ObjectInitializers
+│   │   │   └── AutoProperties
+│   │   │
+│   │   ├── CSharp4-DynamicProgramming
+│   │   │   ├── DynamicBinding
+│   │   │   ├── DLR
+│   │   │   ├── ExpandoObject
+│   │   │   ├── NamedArguments
+│   │   │   ├── OptionalParameters
+│   │   │   └── COMInterop
+│   │   │
+│   │   ├── CSharp5-AsyncProgramming
+│   │   │   ├── AsyncAwait
+│   │   │   ├── Task
+│   │   │   ├── TaskRun
+│   │   │   ├── CancellationToken
+│   │   │   ├── SynchronizationContext
+│   │   │   ├── ConfigureAwaitFalse
+│   │   │   ├── TaskCompletionSource
+│   │   │   ├── AsyncVoid
+│   │   │   ├── Deadlocks
+│   │   │   ├── ThreadPool
+│   │   │   ├── CPUVsIOBound
+│   │   │   ├── AsyncStateMachine
+│   │   │   └── AsyncInternals
+│   │   │
+│   │   ├── CSharp6-Productivity
+│   │   │   ├── StringInterpolation
+│   │   │   ├── NullConditionalOperator
+│   │   │   ├── nameof
+│   │   │   ├── ExceptionFilters
+│   │   │   ├── UsingStatic
+│   │   │   └── ExpressionBodiedMembers
+│   │   │
+│   │   ├── CSharp7-PerformanceAndPatterns
+│   │   │   ├── Tuples
+│   │   │   ├── PatternMatching
+│   │   │   │   ├── ConstantPatterns
+│   │   │   │   ├── TypePatterns
+│   │   │   │   ├── VarPatterns
+│   │   │   │   └── PositionalPatterns
+│   │   │   ├── RefReturns
+│   │   │   ├── RefLocals
+│   │   │   ├── LocalFunctions
+│   │   │   ├── SpanT
+│   │   │   ├── RefStructs
+│   │   │   ├── ValueTask
+│   │   │   └── BinaryLiterals
+│   │   │
+│   │   ├── CSharp8-ModernCSharp
+│   │   │   ├── NullableReferenceTypes
+│   │   │   ├── SwitchExpressions
+│   │   │   ├── PropertyPatterns
+│   │   │   ├── TuplePatterns
+│   │   │   ├── UsingDeclarations
+│   │   │   ├── IndicesAndRanges
+│   │   │   ├── DefaultInterfaceMethods
+│   │   │   ├── IAsyncEnumerable
+│   │   │   ├── AsyncStreams
+│   │   │   └── DisposablePatterns
+│   │   │
+│   │   ├── CSharp9-ImmutabilityAndRecords
+│   │   │   ├── Records
+│   │   │   ├── InitOnlyProperties
+│   │   │   ├── WithExpressions
+│   │   │   ├── CovariantReturns
+│   │   │   ├── TopLevelStatements
+│   │   │   └── SourceGenerators
+│   │   │
+│   │   ├── CSharp10-DeveloperExperience
+│   │   │   ├── GlobalUsings
+│   │   │   ├── FileScopedNamespaces
+│   │   │   ├── RecordStructs
+│   │   │   ├── InterpolatedStringHandlers
+│   │   │   ├── CallerArgumentExpression
+│   │   │   └── IncrementalGenerators
+│   │   │
+│   │   ├── CSharp11-AdvancedLanguageFeatures
+│   │   │   ├── RequiredMembers
+│   │   │   ├── RawStringLiterals
+│   │   │   ├── GenericMath
+│   │   │   ├── UTF8StringLiterals
+│   │   │   ├── ListPatterns
+│   │   │   ├── StaticAbstractInterfaces
+│   │   │   └── AutoDefaultStructs
+│   │   │
+│   │   ├── CSharp12-LatestFeatures
+│   │   │   ├── PrimaryConstructors
+│   │   │   ├── CollectionExpressions
+│   │   │   ├── InlineArrays
+│   │   │   ├── AliasAnyType
+│   │   │   └── ExperimentalFeatures
+│   │   │
+│   │   ├── OOP
+│   │   │   ├── Paradigm
+│   │   │   ├── Inheritance
+│   │   │   ├── Encapsulation
+│   │   │   ├── Abstraction
+│   │   │   ├── Polymorphism
+│   │   │   ├── MethodOverriding
+│   │   │   ├── MethodHiding
+│   │   │   ├── StaticDispatch
+│   │   │   ├── DynamicDispatch
+│   │   │   ├── InterfaceSegregation
+│   │   │   ├── CompositionVsInheritance
+│   │   │   └── SOLID
+│   │   │       ├── SingleResponsibility
+│   │   │       ├── OpenClosed
+│   │   │       ├── LiskovSubstitution
+│   │   │       ├── InterfaceSegregation
+│   │   │       └── DependencyInversion
+│   │   │
+│   │   ├── ConcurrencyAndThreading
+│   │   │   ├── Threading
+│   │   │   ├── Tasks
+│   │   │   ├── ParallelProgramming
+│   │   │   ├── PLINQ
+│   │   │   ├── Channels
+│   │   │   ├── ConcurrentCollections
+│   │   │   ├── Lock
+│   │   │   ├── SemaphoreSlim
+│   │   │   ├── ReaderWriterLockSlim
+│   │   │   ├── SpinLock
+│   │   │   ├── Interlocked
+│   │   │   ├── MemoryBarriers
+│   │   │   ├── ThreadLocalStorage
+│   │   │   ├── Timers
+│   │   │   ├── BackgroundThreads
+│   │   │   └── SynchronizationPrimitives
+│   │   │
+│   │   ├── MemoryAndPerformance
+│   │   │   ├── GarbageCollection
+│   │   │   ├── ManagedMemoryLeaks
+│   │   │   ├── StackVsHeap
+│   │   │   ├── SpanAndMemory
+│   │   │   ├── ArrayPool
+│   │   │   ├── ObjectPooling
+│   │   │   ├── BenchmarkDotNet
+│   │   │   ├── AllocationAnalysis
+│   │   │   ├── BoxingCosts
+│   │   │   └── PerformanceOptimization
+│   │   │
+│   │   ├── Networking
+│   │   │   ├── HttpClient
+│   │   │   ├── TCP
+│   │   │   ├── UDP
+│   │   │   ├── Sockets
+│   │   │   ├── WebSockets
+│   │   │   └── HttpProtocols
+│   │   │
+│   │   ├── Serialization
+│   │   │   ├── SystemTextJson
+│   │   │   ├── NewtonsoftJson
+│   │   │   ├── XMLSerialization
+│   │   │   ├── BinarySerialization
+│   │   │   └── MessagePack
+│   │   │
+│   │   └── Regex
+│   │       ├── CharacterSets
+│   │       ├── Quantifiers
+│   │       ├── Groups
+│   │       ├── Lookaheads
+│   │       ├── CompiledRegex
+│   │       └── Performance
+│
+├── src
+│   ├── SqlServer
+│   │
+│   │   ├── Fundamentals
+│   │   │   ├── DataTypes
+│   │   │   ├── Constraints
+│   │   │   ├── Keys
+│   │   │   ├── Normalization
+│   │   │   ├── Transactions
+│   │   │   └── IsolationLevels
+│   │   │
+│   │   ├── Indexing
+│   │   │   ├── ClusteredIndexes
+│   │   │   ├── NonClusteredIndexes
+│   │   │   ├── CoveringIndexes
+│   │   │   ├── CompositeIndexes
+│   │   │   ├── FilteredIndexes
+│   │   │   ├── ColumnstoreIndexes
+│   │   │   ├── IncludedColumns
+│   │   │   ├── FillFactor
+│   │   │   ├── Fragmentation
+│   │   │   ├── IndexMaintenance
+│   │   │   └── Statistics
+│   │   │
+│   │   ├── QueryOptimization
+│   │   │   ├── ExecutionPlans
+│   │   │   ├── QueryStore
+│   │   │   ├── ParameterSniffing
+│   │   │   ├── SARGability
+│   │   │   ├── TempTablesVsTableVariables
+│   │   │   ├── CTE
+│   │   │   ├── WindowFunctions
+│   │   │   ├── QueryHints
+│   │   │   ├── JoinOptimization
+│   │   │   ├── CardinalityEstimation
+│   │   │   ├── Parallelism
+│   │   │   └── WaitStatistics
+│   │   │
+│   │   ├── Concurrency
+│   │   │   ├── Locking
+│   │   │   ├── Blocking
+│   │   │   ├── Deadlocks
+│   │   │   ├── SnapshotIsolation
+│   │   │   ├── RowVersioning
+│   │   │   ├── OptimisticConcurrency
+│   │   │   └── PessimisticConcurrency
+│   │   │
+│   │   ├── AdvancedSQL
+│   │   │   ├── DynamicSQL
+│   │   │   ├── RecursiveQueries
+│   │   │   ├── MERGE
+│   │   │   ├── PivotAndUnpivot
+│   │   │   ├── JsonSupport
+│   │   │   ├── XMLSupport
+│   │   │   ├── FullTextSearch
+│   │   │   ├── TemporalTables
+│   │   │   └── HierarchyId
+│   │   │
+│   │   ├── Programmability
+│   │   │   ├── StoredProcedures
+│   │   │   ├── Functions
+│   │   │   ├── TableValuedFunctions
+│   │   │   ├── Triggers
+│   │   │   ├── Views
+│   │   │   └── DynamicManagementViews
+│   │   │
+│   │   ├── Diagnostics
+│   │   │   ├── ExtendedEvents
+│   │   │   ├── DMVs
+│   │   │   ├── Profiler
+│   │   │   ├── TempDBAnalysis
+│   │   │   ├── CPUAnalysis
+│   │   │   ├── MemoryAnalysis
+│   │   │   └── IOAnalysis
+│   │   │
+│   │   ├── HighAvailability
+│   │   │   ├── AlwaysOn
+│   │   │   ├── Replication
+│   │   │   ├── LogShipping
+│   │   │   ├── BackupRestore
+│   │   │   ├── Partitioning
+│   │   │   └── DisasterRecovery
+│   │   │
+│   │   ├── Security
+│   │   │   ├── Authentication
+│   │   │   ├── Authorization
+│   │   │   ├── RolesAndSchemas
+│   │   │   ├── RowLevelSecurity
+│   │   │   ├── Encryption
+│   │   │   ├── DynamicDataMasking
+│   │   │   └── Auditing
+│   │   │
+│   │   └── RealWorld
+│   │       ├── MultiTenantDatabase
+│   │       ├── QueueTables
+│   │       ├── SoftDelete
+│   │       ├── AuditLogging
+│   │       ├── LargeScalePagination
+│   │       ├── EventSourcingSupport
+│   │       └── ReportingDatabase
+│
+└── src
+    └── WebAPI
+        │
+        ├── Fundamentals
+        │   ├── Routing
+        │   ├── Controllers
+        │   ├── ModelBinding
+        │   ├── Filters
+        │   ├── DependencyInjection
+        │   ├── MinimalAPIs
+        │   └── APIConventions
+        │
+        ├── Http
+        │   ├── HttpMethods
+        │   ├── StatusCodes
+        │   ├── Headers
+        │   ├── Caching
+        │   ├── Compression
+        │   ├── ContentNegotiation
+        │   ├── Streaming
+        │   └── MultipartRequests
+        │
+        ├── Middleware
+        │   ├── RequestPipeline
+        │   ├── CustomMiddleware
+        │   ├── ExceptionHandling
+        │   ├── GlobalExceptionHandling
+        │   ├── ProblemDetails
+        │   ├── CorrelationId
+        │   ├── RequestLogging
+        │   ├── ResponseWrapping
+        │   └── MultiTenantMiddleware
+        │
+        ├── Security
+        │   ├── JWTAuthentication
+        │   ├── Authorization
+        │   ├── PolicyBasedAuthorization
+        │   ├── ClaimsBasedAuthorization
+        │   ├── Identity
+        │   ├── OAuth2
+        │   ├── OpenIdConnect
+        │   ├── APIKeys
+        │   ├── CORS
+        │   ├── CSRF
+        │   ├── RateLimiting
+        │   ├── RefreshTokens
+        │   └── SecurityHeaders
+        │
+        ├── Validation
+        │   ├── FluentValidation
+        │   ├── ModelValidation
+        │   ├── CustomValidation
+        │   └── RequestValidationPipeline
+        │
+        ├── Versioning
+        │   ├── URLVersioning
+        │   ├── HeaderVersioning
+        │   ├── QueryStringVersioning
+        │   └── MediaTypeVersioning
+        │
+        ├── SwaggerAndOpenAPI
+        │   ├── Swagger
+        │   ├── OpenAPI
+        │   ├── APIExamples
+        │   ├── XMLComments
+        │   └── APIContracts
+        │
+        ├── Observability
+        │   ├── Serilog
+        │   ├── StructuredLogging
+        │   ├── OpenTelemetry
+        │   ├── DistributedTracing
+        │   ├── Metrics
+        │   ├── HealthChecks
+        │   ├── Prometheus
+        │   └── Grafana
+        │
+        ├── Performance
+        │   ├── ResponseCaching
+        │   ├── OutputCaching
+        │   ├── Compression
+        │   ├── MemoryOptimization
+        │   ├── AsyncStreaming
+        │   ├── Pooling
+        │   ├── Benchmarking
+        │   └── ThroughputOptimization
+        │
+        ├── HttpClient
+        │   ├── HttpClientFactory
+        │   ├── Polly
+        │   ├── RetryPolicies
+        │   ├── CircuitBreaker
+        │   ├── TimeoutHandling
+        │   ├── BulkheadIsolation
+        │   └── ResilientApiCalls
+        │
+        ├── Realtime
+        │   ├── SignalR
+        │   ├── WebSockets
+        │   ├── ServerSentEvents
+        │   └── RealtimeScaling
+        │
+        ├── BackgroundProcessing
+        │   ├── HostedServices
+        │   ├── BackgroundService
+        │   ├── Queues
+        │   ├── Hangfire
+        │   ├── QuartzNET
+        │   ├── Scheduling
+        │   └── DistributedWorkers
+        │
+        ├── Architecture
+        │   ├── CleanArchitecture
+        │   ├── CQRS
+        │   ├── VerticalSliceArchitecture
+        │   ├── FeatureFolders
+        │   ├── ModularMonolith
+        │   ├── EventDrivenArchitecture
+        │   └── API Gateway
+        │
+        ├── Communication
+        │   ├── REST
+        │   ├── gRPC
+        │   ├── GraphQL
+        │   ├── Webhooks
+        │   ├── MessageBrokerIntegration
+        │   └── ContractFirstDevelopment
+        │
+        ├── Testing
+        │   ├── UnitTesting
+        │   ├── IntegrationTesting
+        │   ├── WebApplicationFactory
+        │   ├── TestContainers
+        │   ├── ContractTesting
+        │   ├── LoadTesting
+        │   └── APIAutomation
+        │
+        └── Production
+            ├── Docker
+            ├── Kubernetes
+            ├── ReverseProxy
+            ├── NGINX
+            ├── YARP
+            ├── CI-CD
+            ├── BlueGreenDeployment
+            ├── CanaryDeployment
+            ├── Scaling
+            ├── CloudDeployment
+            └── ProductionHardening

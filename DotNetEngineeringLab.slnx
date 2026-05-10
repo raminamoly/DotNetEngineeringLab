@@ -1,0 +1,993 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/CSharp/" />
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/" />
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/BackgroundThreads/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/BackgroundThreads/CSharp.ConcurrencyAndThreading.BackgroundThreads/CSharp.ConcurrencyAndThreading.BackgroundThreads.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/Channels/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/Channels/CSharp.ConcurrencyAndThreading.Channels/CSharp.ConcurrencyAndThreading.Channels.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/ConcurrentCollections/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/ConcurrentCollections/CSharp.ConcurrencyAndThreading.ConcurrentCollections/CSharp.ConcurrencyAndThreading.ConcurrentCollections.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/Interlocked/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/Interlocked/CSharp.ConcurrencyAndThreading.Interlocked/CSharp.ConcurrencyAndThreading.Interlocked.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/Lock/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/Lock/CSharp.ConcurrencyAndThreading.Lock/CSharp.ConcurrencyAndThreading.Lock.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/MemoryBarriers/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/MemoryBarriers/CSharp.ConcurrencyAndThreading.MemoryBarriers/CSharp.ConcurrencyAndThreading.MemoryBarriers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/ParallelProgramming/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/ParallelProgramming/CSharp.ConcurrencyAndThreading.ParallelProgramming/CSharp.ConcurrencyAndThreading.ParallelProgramming.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/PLINQ/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/PLINQ/CSharp.ConcurrencyAndThreading.PLINQ/CSharp.ConcurrencyAndThreading.PLINQ.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/ReaderWriterLockSlim/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/ReaderWriterLockSlim/CSharp.ConcurrencyAndThreading.ReaderWriterLockSlim/CSharp.ConcurrencyAndThreading.ReaderWriterLockSlim.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/SemaphoreSlim/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/SemaphoreSlim/CSharp.ConcurrencyAndThreading.SemaphoreSlim/CSharp.ConcurrencyAndThreading.SemaphoreSlim.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/SpinLock/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/SpinLock/CSharp.ConcurrencyAndThreading.SpinLock/CSharp.ConcurrencyAndThreading.SpinLock.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/SynchronizationPrimitives/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/SynchronizationPrimitives/CSharp.ConcurrencyAndThreading.SynchronizationPrimitives/CSharp.ConcurrencyAndThreading.SynchronizationPrimitives.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/Tasks/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/Tasks/CSharp.ConcurrencyAndThreading.Tasks/CSharp.ConcurrencyAndThreading.Tasks.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/Threading/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/Threading/CSharp.ConcurrencyAndThreading.Threading/CSharp.ConcurrencyAndThreading.Threading.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/ThreadLocalStorage/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/ThreadLocalStorage/CSharp.ConcurrencyAndThreading.ThreadLocalStorage/CSharp.ConcurrencyAndThreading.ThreadLocalStorage.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/ConcurrencyAndThreading/Timers/">
+    <Project Path="src/CSharp/ConcurrencyAndThreading/Timers/CSharp.ConcurrencyAndThreading.Timers/CSharp.ConcurrencyAndThreading.Timers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/" />
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Arrays/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Arrays/CSharp.CSharp1-Legacy.Arrays/CSharp.CSharp1-Legacy.Arrays.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/BoxingAndUnboxing/">
+    <Project Path="src/CSharp/CSharp1-Legacy/BoxingAndUnboxing/CSharp.CSharp1-Legacy.BoxingAndUnboxing/CSharp.CSharp1-Legacy.BoxingAndUnboxing.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Collections/" />
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Collections/ArrayList/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Collections/ArrayList/CSharp.CSharp1-Legacy.Collections.ArrayList/CSharp.CSharp1-Legacy.Collections.ArrayList.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Collections/Hashtable/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Collections/Hashtable/CSharp.CSharp1-Legacy.Collections.Hashtable/CSharp.CSharp1-Legacy.Collections.Hashtable.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Collections/Queue/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Collections/Queue/CSharp.CSharp1-Legacy.Collections.Queue/CSharp.CSharp1-Legacy.Collections.Queue.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Collections/Stack/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Collections/Stack/CSharp.CSharp1-Legacy.Collections.Stack/CSharp.CSharp1-Legacy.Collections.Stack.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Delegates/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Delegates/CSharp.CSharp1-Legacy.Delegates/CSharp.CSharp1-Legacy.Delegates.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Enums/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Enums/CSharp.CSharp1-Legacy.Enums/CSharp.CSharp1-Legacy.Enums.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Events/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Events/CSharp.CSharp1-Legacy.Events/CSharp.CSharp1-Legacy.Events.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Exceptions/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Exceptions/CSharp.CSharp1-Legacy.Exceptions/CSharp.CSharp1-Legacy.Exceptions.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Finalizers/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Finalizers/CSharp.CSharp1-Legacy.Finalizers/CSharp.CSharp1-Legacy.Finalizers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/GarbageCollectionBasics/">
+    <Project Path="src/CSharp/CSharp1-Legacy/GarbageCollectionBasics/CSharp.CSharp1-Legacy.GarbageCollectionBasics/CSharp.CSharp1-Legacy.GarbageCollectionBasics.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/IDisposable/">
+    <Project Path="src/CSharp/CSharp1-Legacy/IDisposable/CSharp.CSharp1-Legacy.IDisposable/CSharp.CSharp1-Legacy.IDisposable.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Interfaces/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Interfaces/CSharp.CSharp1-Legacy.Interfaces/CSharp.CSharp1-Legacy.Interfaces.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Operators/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Operators/CSharp.CSharp1-Legacy.Operators/CSharp.CSharp1-Legacy.Operators.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Strings/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Strings/CSharp.CSharp1-Legacy.Strings/CSharp.CSharp1-Legacy.Strings.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp1-Legacy/Structs/">
+    <Project Path="src/CSharp/CSharp1-Legacy/Structs/CSharp.CSharp1-Legacy.Structs/CSharp.CSharp1-Legacy.Structs.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/" />
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/CallerArgumentExpression/">
+    <Project Path="src/CSharp/CSharp10-DeveloperExperience/CallerArgumentExpression/CSharp.CSharp10-DeveloperExperience.CallerArgumentExpression/CSharp.CSharp10-DeveloperExperience.CallerArgumentExpression.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/FileScopedNamespaces/">
+    <Project Path="src/CSharp/CSharp10-DeveloperExperience/FileScopedNamespaces/CSharp.CSharp10-DeveloperExperience.FileScopedNamespaces/CSharp.CSharp10-DeveloperExperience.FileScopedNamespaces.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/GlobalUsings/">
+    <Project Path="src/CSharp/CSharp10-DeveloperExperience/GlobalUsings/CSharp.CSharp10-DeveloperExperience.GlobalUsings/CSharp.CSharp10-DeveloperExperience.GlobalUsings.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/IncrementalGenerators/">
+    <Project Path="src/CSharp/CSharp10-DeveloperExperience/IncrementalGenerators/CSharp.CSharp10-DeveloperExperience.IncrementalGenerators/CSharp.CSharp10-DeveloperExperience.IncrementalGenerators.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/InterpolatedStringHandlers/">
+    <Project Path="src/CSharp/CSharp10-DeveloperExperience/InterpolatedStringHandlers/CSharp.CSharp10-DeveloperExperience.InterpolatedStringHandlers/CSharp.CSharp10-DeveloperExperience.InterpolatedStringHandlers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp10-DeveloperExperience/RecordStructs/">
+    <Project Path="src/CSharp/CSharp10-DeveloperExperience/RecordStructs/CSharp.CSharp10-DeveloperExperience.RecordStructs/CSharp.CSharp10-DeveloperExperience.RecordStructs.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/" />
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/AutoDefaultStructs/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/AutoDefaultStructs/CSharp.CSharp11-AdvancedLanguageFeatures.AutoDefaultStructs/CSharp.CSharp11-AdvancedLanguageFeatures.AutoDefaultStructs.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/GenericMath/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/GenericMath/CSharp.CSharp11-AdvancedLanguageFeatures.GenericMath/CSharp.CSharp11-AdvancedLanguageFeatures.GenericMath.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/ListPatterns/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/ListPatterns/CSharp.CSharp11-AdvancedLanguageFeatures.ListPatterns/CSharp.CSharp11-AdvancedLanguageFeatures.ListPatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/RawStringLiterals/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/RawStringLiterals/CSharp.CSharp11-AdvancedLanguageFeatures.RawStringLiterals/CSharp.CSharp11-AdvancedLanguageFeatures.RawStringLiterals.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/RequiredMembers/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/RequiredMembers/CSharp.CSharp11-AdvancedLanguageFeatures.RequiredMembers/CSharp.CSharp11-AdvancedLanguageFeatures.RequiredMembers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/StaticAbstractInterfaces/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/StaticAbstractInterfaces/CSharp.CSharp11-AdvancedLanguageFeatures.StaticAbstractInterfaces/CSharp.CSharp11-AdvancedLanguageFeatures.StaticAbstractInterfaces.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp11-AdvancedLanguageFeatures/UTF8StringLiterals/">
+    <Project Path="src/CSharp/CSharp11-AdvancedLanguageFeatures/UTF8StringLiterals/CSharp.CSharp11-AdvancedLanguageFeatures.UTF8StringLiterals/CSharp.CSharp11-AdvancedLanguageFeatures.UTF8StringLiterals.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp12-LatestFeatures/" />
+  <Folder Name="/src/CSharp/CSharp12-LatestFeatures/AliasAnyType/">
+    <Project Path="src/CSharp/CSharp12-LatestFeatures/AliasAnyType/CSharp.CSharp12-LatestFeatures.AliasAnyType/CSharp.CSharp12-LatestFeatures.AliasAnyType.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp12-LatestFeatures/CollectionExpressions/">
+    <Project Path="src/CSharp/CSharp12-LatestFeatures/CollectionExpressions/CSharp.CSharp12-LatestFeatures.CollectionExpressions/CSharp.CSharp12-LatestFeatures.CollectionExpressions.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp12-LatestFeatures/ExperimentalFeatures/">
+    <Project Path="src/CSharp/CSharp12-LatestFeatures/ExperimentalFeatures/CSharp.CSharp12-LatestFeatures.ExperimentalFeatures/CSharp.CSharp12-LatestFeatures.ExperimentalFeatures.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp12-LatestFeatures/InlineArrays/">
+    <Project Path="src/CSharp/CSharp12-LatestFeatures/InlineArrays/CSharp.CSharp12-LatestFeatures.InlineArrays/CSharp.CSharp12-LatestFeatures.InlineArrays.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp12-LatestFeatures/PrimaryConstructors/">
+    <Project Path="src/CSharp/CSharp12-LatestFeatures/PrimaryConstructors/CSharp.CSharp12-LatestFeatures.PrimaryConstructors/CSharp.CSharp12-LatestFeatures.PrimaryConstructors.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/" />
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/AnonymousMethods/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/AnonymousMethods/CSharp.CSharp2-GenericsAndIterators.AnonymousMethods/CSharp.CSharp2-GenericsAndIterators.AnonymousMethods.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/" />
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/Constraints/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Generics/Constraints/CSharp.CSharp2-GenericsAndIterators.Generics.Constraints/CSharp.CSharp2-GenericsAndIterators.Generics.Constraints.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/Contravariance/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Generics/Contravariance/CSharp.CSharp2-GenericsAndIterators.Generics.Contravariance/CSharp.CSharp2-GenericsAndIterators.Generics.Contravariance.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/Covariance/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Generics/Covariance/CSharp.CSharp2-GenericsAndIterators.Generics.Covariance/CSharp.CSharp2-GenericsAndIterators.Generics.Covariance.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/GenericClasses/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Generics/GenericClasses/CSharp.CSharp2-GenericsAndIterators.Generics.GenericClasses/CSharp.CSharp2-GenericsAndIterators.Generics.GenericClasses.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/GenericMethods/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Generics/GenericMethods/CSharp.CSharp2-GenericsAndIterators.Generics.GenericMethods/CSharp.CSharp2-GenericsAndIterators.Generics.GenericMethods.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Generics/OpenVsClosedGenerics/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Generics/OpenVsClosedGenerics/CSharp.CSharp2-GenericsAndIterators.Generics.OpenVsClosedGenerics/CSharp.CSharp2-GenericsAndIterators.Generics.OpenVsClosedGenerics.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/Iterators/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/Iterators/CSharp.CSharp2-GenericsAndIterators.Iterators/CSharp.CSharp2-GenericsAndIterators.Iterators.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/NullableTypes/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/NullableTypes/CSharp.CSharp2-GenericsAndIterators.NullableTypes/CSharp.CSharp2-GenericsAndIterators.NullableTypes.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/PartialClasses/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/PartialClasses/CSharp.CSharp2-GenericsAndIterators.PartialClasses/CSharp.CSharp2-GenericsAndIterators.PartialClasses.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp2-GenericsAndIterators/YieldReturn/">
+    <Project Path="src/CSharp/CSharp2-GenericsAndIterators/YieldReturn/CSharp.CSharp2-GenericsAndIterators.YieldReturn/CSharp.CSharp2-GenericsAndIterators.YieldReturn.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/" />
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/AnonymousTypes/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/AnonymousTypes/CSharp.CSharp3-LINQAndFunctional.AnonymousTypes/CSharp.CSharp3-LINQAndFunctional.AnonymousTypes.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/AutoProperties/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/AutoProperties/CSharp.CSharp3-LINQAndFunctional.AutoProperties/CSharp.CSharp3-LINQAndFunctional.AutoProperties.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/ExtensionMethods/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/ExtensionMethods/CSharp.CSharp3-LINQAndFunctional.ExtensionMethods/CSharp.CSharp3-LINQAndFunctional.ExtensionMethods.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/" />
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/CapturedVariables/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/CapturedVariables/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.CapturedVariables/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.CapturedVariables.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/Closures/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/Closures/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.Closures/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.Closures.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/ExpressionLambdas/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/ExpressionLambdas/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.ExpressionLambdas/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.ExpressionLambdas.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/FuncActionPredicate/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/FuncActionPredicate/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.FuncActionPredicate/CSharp.CSharp3-LINQAndFunctional.LambdaExpressions.FuncActionPredicate.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/" />
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/DeferredExecution/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/DeferredExecution/CSharp.CSharp3-LINQAndFunctional.LINQ.DeferredExecution/CSharp.CSharp3-LINQAndFunctional.LINQ.DeferredExecution.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/ExpressionTrees/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/ExpressionTrees/CSharp.CSharp3-LINQAndFunctional.LINQ.ExpressionTrees/CSharp.CSharp3-LINQAndFunctional.LINQ.ExpressionTrees.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/Grouping/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/Grouping/CSharp.CSharp3-LINQAndFunctional.LINQ.Grouping/CSharp.CSharp3-LINQAndFunctional.LINQ.Grouping.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/IEnumerable/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/IEnumerable/CSharp.CSharp3-LINQAndFunctional.LINQ.IEnumerable/CSharp.CSharp3-LINQAndFunctional.LINQ.IEnumerable.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/ImmediateExecution/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/ImmediateExecution/CSharp.CSharp3-LINQAndFunctional.LINQ.ImmediateExecution/CSharp.CSharp3-LINQAndFunctional.LINQ.ImmediateExecution.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/IQueryable/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/IQueryable/CSharp.CSharp3-LINQAndFunctional.LINQ.IQueryable/CSharp.CSharp3-LINQAndFunctional.LINQ.IQueryable.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/Joins/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/Joins/CSharp.CSharp3-LINQAndFunctional.LINQ.Joins/CSharp.CSharp3-LINQAndFunctional.LINQ.Joins.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/LINQInternals/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/LINQInternals/CSharp.CSharp3-LINQAndFunctional.LINQ.LINQInternals/CSharp.CSharp3-LINQAndFunctional.LINQ.LINQInternals.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/Projection/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/Projection/CSharp.CSharp3-LINQAndFunctional.LINQ.Projection/CSharp.CSharp3-LINQAndFunctional.LINQ.Projection.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/LINQ/Subqueries/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/LINQ/Subqueries/CSharp.CSharp3-LINQAndFunctional.LINQ.Subqueries/CSharp.CSharp3-LINQAndFunctional.LINQ.Subqueries.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp3-LINQAndFunctional/ObjectInitializers/">
+    <Project Path="src/CSharp/CSharp3-LINQAndFunctional/ObjectInitializers/CSharp.CSharp3-LINQAndFunctional.ObjectInitializers/CSharp.CSharp3-LINQAndFunctional.ObjectInitializers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/" />
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/COMInterop/">
+    <Project Path="src/CSharp/CSharp4-DynamicProgramming/COMInterop/CSharp.CSharp4-DynamicProgramming.COMInterop/CSharp.CSharp4-DynamicProgramming.COMInterop.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/DLR/">
+    <Project Path="src/CSharp/CSharp4-DynamicProgramming/DLR/CSharp.CSharp4-DynamicProgramming.DLR/CSharp.CSharp4-DynamicProgramming.DLR.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/DynamicBinding/">
+    <Project Path="src/CSharp/CSharp4-DynamicProgramming/DynamicBinding/CSharp.CSharp4-DynamicProgramming.DynamicBinding/CSharp.CSharp4-DynamicProgramming.DynamicBinding.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/ExpandoObject/">
+    <Project Path="src/CSharp/CSharp4-DynamicProgramming/ExpandoObject/CSharp.CSharp4-DynamicProgramming.ExpandoObject/CSharp.CSharp4-DynamicProgramming.ExpandoObject.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/NamedArguments/">
+    <Project Path="src/CSharp/CSharp4-DynamicProgramming/NamedArguments/CSharp.CSharp4-DynamicProgramming.NamedArguments/CSharp.CSharp4-DynamicProgramming.NamedArguments.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp4-DynamicProgramming/OptionalParameters/">
+    <Project Path="src/CSharp/CSharp4-DynamicProgramming/OptionalParameters/CSharp.CSharp4-DynamicProgramming.OptionalParameters/CSharp.CSharp4-DynamicProgramming.OptionalParameters.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/" />
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/AsyncAwait/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/AsyncAwait/CSharp.CSharp5-AsyncProgramming.AsyncAwait/CSharp.CSharp5-AsyncProgramming.AsyncAwait.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/AsyncInternals/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/AsyncInternals/CSharp.CSharp5-AsyncProgramming.AsyncInternals/CSharp.CSharp5-AsyncProgramming.AsyncInternals.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/AsyncStateMachine/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/AsyncStateMachine/CSharp.CSharp5-AsyncProgramming.AsyncStateMachine/CSharp.CSharp5-AsyncProgramming.AsyncStateMachine.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/AsyncVoid/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/AsyncVoid/CSharp.CSharp5-AsyncProgramming.AsyncVoid/CSharp.CSharp5-AsyncProgramming.AsyncVoid.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/CancellationToken/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/CancellationToken/CSharp.CSharp5-AsyncProgramming.CancellationToken/CSharp.CSharp5-AsyncProgramming.CancellationToken.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/ConfigureAwaitFalse/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/ConfigureAwaitFalse/CSharp.CSharp5-AsyncProgramming.ConfigureAwaitFalse/CSharp.CSharp5-AsyncProgramming.ConfigureAwaitFalse.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/CPUVsIOBound/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/CPUVsIOBound/CSharp.CSharp5-AsyncProgramming.CPUVsIOBound/CSharp.CSharp5-AsyncProgramming.CPUVsIOBound.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/Deadlocks/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/Deadlocks/CSharp.CSharp5-AsyncProgramming.Deadlocks/CSharp.CSharp5-AsyncProgramming.Deadlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/SynchronizationContext/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/SynchronizationContext/CSharp.CSharp5-AsyncProgramming.SynchronizationContext/CSharp.CSharp5-AsyncProgramming.SynchronizationContext.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/Task/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/Task/CSharp.CSharp5-AsyncProgramming.Task/CSharp.CSharp5-AsyncProgramming.Task.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/TaskCompletionSource/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/TaskCompletionSource/CSharp.CSharp5-AsyncProgramming.TaskCompletionSource/CSharp.CSharp5-AsyncProgramming.TaskCompletionSource.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/TaskRun/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/TaskRun/CSharp.CSharp5-AsyncProgramming.TaskRun/CSharp.CSharp5-AsyncProgramming.TaskRun.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp5-AsyncProgramming/ThreadPool/">
+    <Project Path="src/CSharp/CSharp5-AsyncProgramming/ThreadPool/CSharp.CSharp5-AsyncProgramming.ThreadPool/CSharp.CSharp5-AsyncProgramming.ThreadPool.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp6-Productivity/" />
+  <Folder Name="/src/CSharp/CSharp6-Productivity/ExceptionFilters/">
+    <Project Path="src/CSharp/CSharp6-Productivity/ExceptionFilters/CSharp.CSharp6-Productivity.ExceptionFilters/CSharp.CSharp6-Productivity.ExceptionFilters.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp6-Productivity/ExpressionBodiedMembers/">
+    <Project Path="src/CSharp/CSharp6-Productivity/ExpressionBodiedMembers/CSharp.CSharp6-Productivity.ExpressionBodiedMembers/CSharp.CSharp6-Productivity.ExpressionBodiedMembers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp6-Productivity/nameof/">
+    <Project Path="src/CSharp/CSharp6-Productivity/nameof/CSharp.CSharp6-Productivity.nameof/CSharp.CSharp6-Productivity.nameof.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp6-Productivity/NullConditionalOperator/">
+    <Project Path="src/CSharp/CSharp6-Productivity/NullConditionalOperator/CSharp.CSharp6-Productivity.NullConditionalOperator/CSharp.CSharp6-Productivity.NullConditionalOperator.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp6-Productivity/StringInterpolation/">
+    <Project Path="src/CSharp/CSharp6-Productivity/StringInterpolation/CSharp.CSharp6-Productivity.StringInterpolation/CSharp.CSharp6-Productivity.StringInterpolation.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp6-Productivity/UsingStatic/">
+    <Project Path="src/CSharp/CSharp6-Productivity/UsingStatic/CSharp.CSharp6-Productivity.UsingStatic/CSharp.CSharp6-Productivity.UsingStatic.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/" />
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/BinaryLiterals/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/BinaryLiterals/CSharp.CSharp7-PerformanceAndPatterns.BinaryLiterals/CSharp.CSharp7-PerformanceAndPatterns.BinaryLiterals.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/LocalFunctions/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/LocalFunctions/CSharp.CSharp7-PerformanceAndPatterns.LocalFunctions/CSharp.CSharp7-PerformanceAndPatterns.LocalFunctions.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/" />
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/ConstantPatterns/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/ConstantPatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.ConstantPatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.ConstantPatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/PositionalPatterns/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/PositionalPatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.PositionalPatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.PositionalPatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/TypePatterns/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/TypePatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.TypePatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.TypePatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/VarPatterns/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/VarPatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.VarPatterns/CSharp.CSharp7-PerformanceAndPatterns.PatternMatching.VarPatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/RefLocals/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/RefLocals/CSharp.CSharp7-PerformanceAndPatterns.RefLocals/CSharp.CSharp7-PerformanceAndPatterns.RefLocals.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/RefReturns/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/RefReturns/CSharp.CSharp7-PerformanceAndPatterns.RefReturns/CSharp.CSharp7-PerformanceAndPatterns.RefReturns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/RefStructs/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/RefStructs/CSharp.CSharp7-PerformanceAndPatterns.RefStructs/CSharp.CSharp7-PerformanceAndPatterns.RefStructs.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/SpanT/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/SpanT/CSharp.CSharp7-PerformanceAndPatterns.SpanT/CSharp.CSharp7-PerformanceAndPatterns.SpanT.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/Tuples/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/Tuples/CSharp.CSharp7-PerformanceAndPatterns.Tuples/CSharp.CSharp7-PerformanceAndPatterns.Tuples.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp7-PerformanceAndPatterns/ValueTask/">
+    <Project Path="src/CSharp/CSharp7-PerformanceAndPatterns/ValueTask/CSharp.CSharp7-PerformanceAndPatterns.ValueTask/CSharp.CSharp7-PerformanceAndPatterns.ValueTask.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/" />
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/AsyncStreams/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/AsyncStreams/CSharp.CSharp8-ModernCSharp.AsyncStreams/CSharp.CSharp8-ModernCSharp.AsyncStreams.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/DefaultInterfaceMethods/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/DefaultInterfaceMethods/CSharp.CSharp8-ModernCSharp.DefaultInterfaceMethods/CSharp.CSharp8-ModernCSharp.DefaultInterfaceMethods.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/DisposablePatterns/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/DisposablePatterns/CSharp.CSharp8-ModernCSharp.DisposablePatterns/CSharp.CSharp8-ModernCSharp.DisposablePatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/IAsyncEnumerable/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/IAsyncEnumerable/CSharp.CSharp8-ModernCSharp.IAsyncEnumerable/CSharp.CSharp8-ModernCSharp.IAsyncEnumerable.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/IndicesAndRanges/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/IndicesAndRanges/CSharp.CSharp8-ModernCSharp.IndicesAndRanges/CSharp.CSharp8-ModernCSharp.IndicesAndRanges.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/NullableReferenceTypes/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/NullableReferenceTypes/CSharp.CSharp8-ModernCSharp.NullableReferenceTypes/CSharp.CSharp8-ModernCSharp.NullableReferenceTypes.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/PropertyPatterns/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/PropertyPatterns/CSharp.CSharp8-ModernCSharp.PropertyPatterns/CSharp.CSharp8-ModernCSharp.PropertyPatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/SwitchExpressions/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/SwitchExpressions/CSharp.CSharp8-ModernCSharp.SwitchExpressions/CSharp.CSharp8-ModernCSharp.SwitchExpressions.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/TuplePatterns/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/TuplePatterns/CSharp.CSharp8-ModernCSharp.TuplePatterns/CSharp.CSharp8-ModernCSharp.TuplePatterns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp8-ModernCSharp/UsingDeclarations/">
+    <Project Path="src/CSharp/CSharp8-ModernCSharp/UsingDeclarations/CSharp.CSharp8-ModernCSharp.UsingDeclarations/CSharp.CSharp8-ModernCSharp.UsingDeclarations.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/" />
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/CovariantReturns/">
+    <Project Path="src/CSharp/CSharp9-ImmutabilityAndRecords/CovariantReturns/CSharp.CSharp9-ImmutabilityAndRecords.CovariantReturns/CSharp.CSharp9-ImmutabilityAndRecords.CovariantReturns.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/InitOnlyProperties/">
+    <Project Path="src/CSharp/CSharp9-ImmutabilityAndRecords/InitOnlyProperties/CSharp.CSharp9-ImmutabilityAndRecords.InitOnlyProperties/CSharp.CSharp9-ImmutabilityAndRecords.InitOnlyProperties.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/Records/">
+    <Project Path="src/CSharp/CSharp9-ImmutabilityAndRecords/Records/CSharp.CSharp9-ImmutabilityAndRecords.Records/CSharp.CSharp9-ImmutabilityAndRecords.Records.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/SourceGenerators/">
+    <Project Path="src/CSharp/CSharp9-ImmutabilityAndRecords/SourceGenerators/CSharp.CSharp9-ImmutabilityAndRecords.SourceGenerators/CSharp.CSharp9-ImmutabilityAndRecords.SourceGenerators.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/TopLevelStatements/">
+    <Project Path="src/CSharp/CSharp9-ImmutabilityAndRecords/TopLevelStatements/CSharp.CSharp9-ImmutabilityAndRecords.TopLevelStatements/CSharp.CSharp9-ImmutabilityAndRecords.TopLevelStatements.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/CSharp9-ImmutabilityAndRecords/WithExpressions/">
+    <Project Path="src/CSharp/CSharp9-ImmutabilityAndRecords/WithExpressions/CSharp.CSharp9-ImmutabilityAndRecords.WithExpressions/CSharp.CSharp9-ImmutabilityAndRecords.WithExpressions.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/" />
+  <Folder Name="/src/CSharp/MemoryAndPerformance/AllocationAnalysis/">
+    <Project Path="src/CSharp/MemoryAndPerformance/AllocationAnalysis/CSharp.MemoryAndPerformance.AllocationAnalysis/CSharp.MemoryAndPerformance.AllocationAnalysis.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/ArrayPool/">
+    <Project Path="src/CSharp/MemoryAndPerformance/ArrayPool/CSharp.MemoryAndPerformance.ArrayPool/CSharp.MemoryAndPerformance.ArrayPool.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/BenchmarkDotNet/">
+    <Project Path="src/CSharp/MemoryAndPerformance/BenchmarkDotNet/CSharp.MemoryAndPerformance.BenchmarkDotNet/CSharp.MemoryAndPerformance.BenchmarkDotNet.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/BoxingCosts/">
+    <Project Path="src/CSharp/MemoryAndPerformance/BoxingCosts/CSharp.MemoryAndPerformance.BoxingCosts/CSharp.MemoryAndPerformance.BoxingCosts.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/GarbageCollection/">
+    <Project Path="src/CSharp/MemoryAndPerformance/GarbageCollection/CSharp.MemoryAndPerformance.GarbageCollection/CSharp.MemoryAndPerformance.GarbageCollection.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/ManagedMemoryLeaks/">
+    <Project Path="src/CSharp/MemoryAndPerformance/ManagedMemoryLeaks/CSharp.MemoryAndPerformance.ManagedMemoryLeaks/CSharp.MemoryAndPerformance.ManagedMemoryLeaks.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/ObjectPooling/">
+    <Project Path="src/CSharp/MemoryAndPerformance/ObjectPooling/CSharp.MemoryAndPerformance.ObjectPooling/CSharp.MemoryAndPerformance.ObjectPooling.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/PerformanceOptimization/">
+    <Project Path="src/CSharp/MemoryAndPerformance/PerformanceOptimization/CSharp.MemoryAndPerformance.PerformanceOptimization/CSharp.MemoryAndPerformance.PerformanceOptimization.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/SpanAndMemory/">
+    <Project Path="src/CSharp/MemoryAndPerformance/SpanAndMemory/CSharp.MemoryAndPerformance.SpanAndMemory/CSharp.MemoryAndPerformance.SpanAndMemory.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/MemoryAndPerformance/StackVsHeap/">
+    <Project Path="src/CSharp/MemoryAndPerformance/StackVsHeap/CSharp.MemoryAndPerformance.StackVsHeap/CSharp.MemoryAndPerformance.StackVsHeap.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Networking/" />
+  <Folder Name="/src/CSharp/Networking/HttpClient/">
+    <Project Path="src/CSharp/Networking/HttpClient/CSharp.Networking.HttpClient/CSharp.Networking.HttpClient.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Networking/HttpProtocols/">
+    <Project Path="src/CSharp/Networking/HttpProtocols/CSharp.Networking.HttpProtocols/CSharp.Networking.HttpProtocols.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Networking/Sockets/">
+    <Project Path="src/CSharp/Networking/Sockets/CSharp.Networking.Sockets/CSharp.Networking.Sockets.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Networking/TCP/">
+    <Project Path="src/CSharp/Networking/TCP/CSharp.Networking.TCP/CSharp.Networking.TCP.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Networking/UDP/">
+    <Project Path="src/CSharp/Networking/UDP/CSharp.Networking.UDP/CSharp.Networking.UDP.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Networking/WebSockets/">
+    <Project Path="src/CSharp/Networking/WebSockets/CSharp.Networking.WebSockets/CSharp.Networking.WebSockets.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/" />
+  <Folder Name="/src/CSharp/OOP/Abstraction/">
+    <Project Path="src/CSharp/OOP/Abstraction/CSharp.OOP.Abstraction/CSharp.OOP.Abstraction.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/CompositionVsInheritance/">
+    <Project Path="src/CSharp/OOP/CompositionVsInheritance/CSharp.OOP.CompositionVsInheritance/CSharp.OOP.CompositionVsInheritance.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/DynamicDispatch/">
+    <Project Path="src/CSharp/OOP/DynamicDispatch/CSharp.OOP.DynamicDispatch/CSharp.OOP.DynamicDispatch.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/Encapsulation/">
+    <Project Path="src/CSharp/OOP/Encapsulation/CSharp.OOP.Encapsulation/CSharp.OOP.Encapsulation.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/Inheritance/">
+    <Project Path="src/CSharp/OOP/Inheritance/CSharp.OOP.Inheritance/CSharp.OOP.Inheritance.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/InterfaceSegregation/">
+    <Project Path="src/CSharp/OOP/InterfaceSegregation/CSharp.OOP.InterfaceSegregation/CSharp.OOP.InterfaceSegregation.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/MethodHiding/">
+    <Project Path="src/CSharp/OOP/MethodHiding/CSharp.OOP.MethodHiding/CSharp.OOP.MethodHiding.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/MethodOverriding/">
+    <Project Path="src/CSharp/OOP/MethodOverriding/CSharp.OOP.MethodOverriding/CSharp.OOP.MethodOverriding.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/Paradigm/">
+    <Project Path="src/CSharp/OOP/Paradigm/CSharp.OOP.Paradigm/CSharp.OOP.Paradigm.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/Polymorphism/">
+    <Project Path="src/CSharp/OOP/Polymorphism/CSharp.OOP.Polymorphism/CSharp.OOP.Polymorphism.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/SOLID/" />
+  <Folder Name="/src/CSharp/OOP/SOLID/DependencyInversion/">
+    <Project Path="src/CSharp/OOP/SOLID/DependencyInversion/CSharp.OOP.SOLID.DependencyInversion/CSharp.OOP.SOLID.DependencyInversion.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/SOLID/InterfaceSegregation/">
+    <Project Path="src/CSharp/OOP/SOLID/InterfaceSegregation/CSharp.OOP.SOLID.InterfaceSegregation/CSharp.OOP.SOLID.InterfaceSegregation.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/SOLID/LiskovSubstitution/">
+    <Project Path="src/CSharp/OOP/SOLID/LiskovSubstitution/CSharp.OOP.SOLID.LiskovSubstitution/CSharp.OOP.SOLID.LiskovSubstitution.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/SOLID/OpenClosed/">
+    <Project Path="src/CSharp/OOP/SOLID/OpenClosed/CSharp.OOP.SOLID.OpenClosed/CSharp.OOP.SOLID.OpenClosed.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/SOLID/SingleResponsibility/">
+    <Project Path="src/CSharp/OOP/SOLID/SingleResponsibility/CSharp.OOP.SOLID.SingleResponsibility/CSharp.OOP.SOLID.SingleResponsibility.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/OOP/StaticDispatch/">
+    <Project Path="src/CSharp/OOP/StaticDispatch/CSharp.OOP.StaticDispatch/CSharp.OOP.StaticDispatch.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Regex/" />
+  <Folder Name="/src/CSharp/Regex/CharacterSets/">
+    <Project Path="src/CSharp/Regex/CharacterSets/CSharp.Regex.CharacterSets/CSharp.Regex.CharacterSets.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Regex/CompiledRegex/">
+    <Project Path="src/CSharp/Regex/CompiledRegex/CSharp.Regex.CompiledRegex/CSharp.Regex.CompiledRegex.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Regex/Groups/">
+    <Project Path="src/CSharp/Regex/Groups/CSharp.Regex.Groups/CSharp.Regex.Groups.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Regex/Lookaheads/">
+    <Project Path="src/CSharp/Regex/Lookaheads/CSharp.Regex.Lookaheads/CSharp.Regex.Lookaheads.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Regex/Performance/">
+    <Project Path="src/CSharp/Regex/Performance/CSharp.Regex.Performance/CSharp.Regex.Performance.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Regex/Quantifiers/">
+    <Project Path="src/CSharp/Regex/Quantifiers/CSharp.Regex.Quantifiers/CSharp.Regex.Quantifiers.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Serialization/" />
+  <Folder Name="/src/CSharp/Serialization/BinarySerialization/">
+    <Project Path="src/CSharp/Serialization/BinarySerialization/CSharp.Serialization.BinarySerialization/CSharp.Serialization.BinarySerialization.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Serialization/MessagePack/">
+    <Project Path="src/CSharp/Serialization/MessagePack/CSharp.Serialization.MessagePack/CSharp.Serialization.MessagePack.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Serialization/NewtonsoftJson/">
+    <Project Path="src/CSharp/Serialization/NewtonsoftJson/CSharp.Serialization.NewtonsoftJson/CSharp.Serialization.NewtonsoftJson.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Serialization/SystemTextJson/">
+    <Project Path="src/CSharp/Serialization/SystemTextJson/CSharp.Serialization.SystemTextJson/CSharp.Serialization.SystemTextJson.csproj" />
+  </Folder>
+  <Folder Name="/src/CSharp/Serialization/XMLSerialization/">
+    <Project Path="src/CSharp/Serialization/XMLSerialization/CSharp.Serialization.XMLSerialization/CSharp.Serialization.XMLSerialization.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/" />
+  <Folder Name="/src/SqlServer/AdvancedSQL/" />
+  <Folder Name="/src/SqlServer/AdvancedSQL/DynamicSQL/">
+    <Project Path="src/SqlServer/AdvancedSQL/DynamicSQL/SqlServer.AdvancedSQL.DynamicSQL/SqlServer.AdvancedSQL.DynamicSQL.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/FullTextSearch/">
+    <Project Path="src/SqlServer/AdvancedSQL/FullTextSearch/SqlServer.AdvancedSQL.FullTextSearch/SqlServer.AdvancedSQL.FullTextSearch.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/HierarchyId/">
+    <Project Path="src/SqlServer/AdvancedSQL/HierarchyId/SqlServer.AdvancedSQL.HierarchyId/SqlServer.AdvancedSQL.HierarchyId.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/JsonSupport/">
+    <Project Path="src/SqlServer/AdvancedSQL/JsonSupport/SqlServer.AdvancedSQL.JsonSupport/SqlServer.AdvancedSQL.JsonSupport.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/MERGE/">
+    <Project Path="src/SqlServer/AdvancedSQL/MERGE/SqlServer.AdvancedSQL.MERGE/SqlServer.AdvancedSQL.MERGE.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/PivotAndUnpivot/">
+    <Project Path="src/SqlServer/AdvancedSQL/PivotAndUnpivot/SqlServer.AdvancedSQL.PivotAndUnpivot/SqlServer.AdvancedSQL.PivotAndUnpivot.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/RecursiveQueries/">
+    <Project Path="src/SqlServer/AdvancedSQL/RecursiveQueries/SqlServer.AdvancedSQL.RecursiveQueries/SqlServer.AdvancedSQL.RecursiveQueries.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/TemporalTables/">
+    <Project Path="src/SqlServer/AdvancedSQL/TemporalTables/SqlServer.AdvancedSQL.TemporalTables/SqlServer.AdvancedSQL.TemporalTables.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/AdvancedSQL/XMLSupport/">
+    <Project Path="src/SqlServer/AdvancedSQL/XMLSupport/SqlServer.AdvancedSQL.XMLSupport/SqlServer.AdvancedSQL.XMLSupport.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/" />
+  <Folder Name="/src/SqlServer/Concurrency/Blocking/">
+    <Project Path="src/SqlServer/Concurrency/Blocking/SqlServer.Concurrency.Blocking/SqlServer.Concurrency.Blocking.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/Deadlocks/">
+    <Project Path="src/SqlServer/Concurrency/Deadlocks/SqlServer.Concurrency.Deadlocks/SqlServer.Concurrency.Deadlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/Locking/">
+    <Project Path="src/SqlServer/Concurrency/Locking/SqlServer.Concurrency.Locking/SqlServer.Concurrency.Locking.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/OptimisticConcurrency/">
+    <Project Path="src/SqlServer/Concurrency/OptimisticConcurrency/SqlServer.Concurrency.OptimisticConcurrency/SqlServer.Concurrency.OptimisticConcurrency.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/PessimisticConcurrency/">
+    <Project Path="src/SqlServer/Concurrency/PessimisticConcurrency/SqlServer.Concurrency.PessimisticConcurrency/SqlServer.Concurrency.PessimisticConcurrency.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/RowVersioning/">
+    <Project Path="src/SqlServer/Concurrency/RowVersioning/SqlServer.Concurrency.RowVersioning/SqlServer.Concurrency.RowVersioning.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Concurrency/SnapshotIsolation/">
+    <Project Path="src/SqlServer/Concurrency/SnapshotIsolation/SqlServer.Concurrency.SnapshotIsolation/SqlServer.Concurrency.SnapshotIsolation.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/" />
+  <Folder Name="/src/SqlServer/Diagnostics/CPUAnalysis/">
+    <Project Path="src/SqlServer/Diagnostics/CPUAnalysis/SqlServer.Diagnostics.CPUAnalysis/SqlServer.Diagnostics.CPUAnalysis.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/DMVs/">
+    <Project Path="src/SqlServer/Diagnostics/DMVs/SqlServer.Diagnostics.DMVs/SqlServer.Diagnostics.DMVs.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/ExtendedEvents/">
+    <Project Path="src/SqlServer/Diagnostics/ExtendedEvents/SqlServer.Diagnostics.ExtendedEvents/SqlServer.Diagnostics.ExtendedEvents.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/IOAnalysis/">
+    <Project Path="src/SqlServer/Diagnostics/IOAnalysis/SqlServer.Diagnostics.IOAnalysis/SqlServer.Diagnostics.IOAnalysis.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/MemoryAnalysis/">
+    <Project Path="src/SqlServer/Diagnostics/MemoryAnalysis/SqlServer.Diagnostics.MemoryAnalysis/SqlServer.Diagnostics.MemoryAnalysis.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/Profiler/">
+    <Project Path="src/SqlServer/Diagnostics/Profiler/SqlServer.Diagnostics.Profiler/SqlServer.Diagnostics.Profiler.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Diagnostics/TempDBAnalysis/">
+    <Project Path="src/SqlServer/Diagnostics/TempDBAnalysis/SqlServer.Diagnostics.TempDBAnalysis/SqlServer.Diagnostics.TempDBAnalysis.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Fundamentals/" />
+  <Folder Name="/src/SqlServer/Fundamentals/Constraints/">
+    <Project Path="src/SqlServer/Fundamentals/Constraints/SqlServer.Fundamentals.Constraints/SqlServer.Fundamentals.Constraints.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Fundamentals/DataTypes/">
+    <Project Path="src/SqlServer/Fundamentals/DataTypes/SqlServer.Fundamentals.DataTypes/SqlServer.Fundamentals.DataTypes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Fundamentals/IsolationLevels/">
+    <Project Path="src/SqlServer/Fundamentals/IsolationLevels/SqlServer.Fundamentals.IsolationLevels/SqlServer.Fundamentals.IsolationLevels.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Fundamentals/Keys/">
+    <Project Path="src/SqlServer/Fundamentals/Keys/SqlServer.Fundamentals.Keys/SqlServer.Fundamentals.Keys.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Fundamentals/Normalization/">
+    <Project Path="src/SqlServer/Fundamentals/Normalization/SqlServer.Fundamentals.Normalization/SqlServer.Fundamentals.Normalization.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Fundamentals/Transactions/">
+    <Project Path="src/SqlServer/Fundamentals/Transactions/SqlServer.Fundamentals.Transactions/SqlServer.Fundamentals.Transactions.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/HighAvailability/" />
+  <Folder Name="/src/SqlServer/HighAvailability/AlwaysOn/">
+    <Project Path="src/SqlServer/HighAvailability/AlwaysOn/SqlServer.HighAvailability.AlwaysOn/SqlServer.HighAvailability.AlwaysOn.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/HighAvailability/BackupRestore/">
+    <Project Path="src/SqlServer/HighAvailability/BackupRestore/SqlServer.HighAvailability.BackupRestore/SqlServer.HighAvailability.BackupRestore.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/HighAvailability/DisasterRecovery/">
+    <Project Path="src/SqlServer/HighAvailability/DisasterRecovery/SqlServer.HighAvailability.DisasterRecovery/SqlServer.HighAvailability.DisasterRecovery.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/HighAvailability/LogShipping/">
+    <Project Path="src/SqlServer/HighAvailability/LogShipping/SqlServer.HighAvailability.LogShipping/SqlServer.HighAvailability.LogShipping.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/HighAvailability/Partitioning/">
+    <Project Path="src/SqlServer/HighAvailability/Partitioning/SqlServer.HighAvailability.Partitioning/SqlServer.HighAvailability.Partitioning.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/HighAvailability/Replication/">
+    <Project Path="src/SqlServer/HighAvailability/Replication/SqlServer.HighAvailability.Replication/SqlServer.HighAvailability.Replication.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/" />
+  <Folder Name="/src/SqlServer/Indexing/ClusteredIndexes/">
+    <Project Path="src/SqlServer/Indexing/ClusteredIndexes/SqlServer.Indexing.ClusteredIndexes/SqlServer.Indexing.ClusteredIndexes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/ColumnstoreIndexes/">
+    <Project Path="src/SqlServer/Indexing/ColumnstoreIndexes/SqlServer.Indexing.ColumnstoreIndexes/SqlServer.Indexing.ColumnstoreIndexes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/CompositeIndexes/">
+    <Project Path="src/SqlServer/Indexing/CompositeIndexes/SqlServer.Indexing.CompositeIndexes/SqlServer.Indexing.CompositeIndexes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/CoveringIndexes/">
+    <Project Path="src/SqlServer/Indexing/CoveringIndexes/SqlServer.Indexing.CoveringIndexes/SqlServer.Indexing.CoveringIndexes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/FillFactor/">
+    <Project Path="src/SqlServer/Indexing/FillFactor/SqlServer.Indexing.FillFactor/SqlServer.Indexing.FillFactor.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/FilteredIndexes/">
+    <Project Path="src/SqlServer/Indexing/FilteredIndexes/SqlServer.Indexing.FilteredIndexes/SqlServer.Indexing.FilteredIndexes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/Fragmentation/">
+    <Project Path="src/SqlServer/Indexing/Fragmentation/SqlServer.Indexing.Fragmentation/SqlServer.Indexing.Fragmentation.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/IncludedColumns/">
+    <Project Path="src/SqlServer/Indexing/IncludedColumns/SqlServer.Indexing.IncludedColumns/SqlServer.Indexing.IncludedColumns.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/IndexMaintenance/">
+    <Project Path="src/SqlServer/Indexing/IndexMaintenance/SqlServer.Indexing.IndexMaintenance/SqlServer.Indexing.IndexMaintenance.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/NonClusteredIndexes/">
+    <Project Path="src/SqlServer/Indexing/NonClusteredIndexes/SqlServer.Indexing.NonClusteredIndexes/SqlServer.Indexing.NonClusteredIndexes.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Indexing/Statistics/">
+    <Project Path="src/SqlServer/Indexing/Statistics/SqlServer.Indexing.Statistics/SqlServer.Indexing.Statistics.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Programmability/" />
+  <Folder Name="/src/SqlServer/Programmability/DynamicManagementViews/">
+    <Project Path="src/SqlServer/Programmability/DynamicManagementViews/SqlServer.Programmability.DynamicManagementViews/SqlServer.Programmability.DynamicManagementViews.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Programmability/Functions/">
+    <Project Path="src/SqlServer/Programmability/Functions/SqlServer.Programmability.Functions/SqlServer.Programmability.Functions.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Programmability/StoredProcedures/">
+    <Project Path="src/SqlServer/Programmability/StoredProcedures/SqlServer.Programmability.StoredProcedures/SqlServer.Programmability.StoredProcedures.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Programmability/TableValuedFunctions/">
+    <Project Path="src/SqlServer/Programmability/TableValuedFunctions/SqlServer.Programmability.TableValuedFunctions/SqlServer.Programmability.TableValuedFunctions.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Programmability/Triggers/">
+    <Project Path="src/SqlServer/Programmability/Triggers/SqlServer.Programmability.Triggers/SqlServer.Programmability.Triggers.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Programmability/Views/">
+    <Project Path="src/SqlServer/Programmability/Views/SqlServer.Programmability.Views/SqlServer.Programmability.Views.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/" />
+  <Folder Name="/src/SqlServer/QueryOptimization/CardinalityEstimation/">
+    <Project Path="src/SqlServer/QueryOptimization/CardinalityEstimation/SqlServer.QueryOptimization.CardinalityEstimation/SqlServer.QueryOptimization.CardinalityEstimation.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/CTE/">
+    <Project Path="src/SqlServer/QueryOptimization/CTE/SqlServer.QueryOptimization.CTE/SqlServer.QueryOptimization.CTE.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/ExecutionPlans/">
+    <Project Path="src/SqlServer/QueryOptimization/ExecutionPlans/SqlServer.QueryOptimization.ExecutionPlans/SqlServer.QueryOptimization.ExecutionPlans.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/JoinOptimization/">
+    <Project Path="src/SqlServer/QueryOptimization/JoinOptimization/SqlServer.QueryOptimization.JoinOptimization/SqlServer.QueryOptimization.JoinOptimization.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/Parallelism/">
+    <Project Path="src/SqlServer/QueryOptimization/Parallelism/SqlServer.QueryOptimization.Parallelism/SqlServer.QueryOptimization.Parallelism.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/ParameterSniffing/">
+    <Project Path="src/SqlServer/QueryOptimization/ParameterSniffing/SqlServer.QueryOptimization.ParameterSniffing/SqlServer.QueryOptimization.ParameterSniffing.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/QueryHints/">
+    <Project Path="src/SqlServer/QueryOptimization/QueryHints/SqlServer.QueryOptimization.QueryHints/SqlServer.QueryOptimization.QueryHints.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/QueryStore/">
+    <Project Path="src/SqlServer/QueryOptimization/QueryStore/SqlServer.QueryOptimization.QueryStore/SqlServer.QueryOptimization.QueryStore.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/SARGability/">
+    <Project Path="src/SqlServer/QueryOptimization/SARGability/SqlServer.QueryOptimization.SARGability/SqlServer.QueryOptimization.SARGability.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/TempTablesVsTableVariables/">
+    <Project Path="src/SqlServer/QueryOptimization/TempTablesVsTableVariables/SqlServer.QueryOptimization.TempTablesVsTableVariables/SqlServer.QueryOptimization.TempTablesVsTableVariables.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/WaitStatistics/">
+    <Project Path="src/SqlServer/QueryOptimization/WaitStatistics/SqlServer.QueryOptimization.WaitStatistics/SqlServer.QueryOptimization.WaitStatistics.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/QueryOptimization/WindowFunctions/">
+    <Project Path="src/SqlServer/QueryOptimization/WindowFunctions/SqlServer.QueryOptimization.WindowFunctions/SqlServer.QueryOptimization.WindowFunctions.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/" />
+  <Folder Name="/src/SqlServer/RealWorld/AuditLogging/">
+    <Project Path="src/SqlServer/RealWorld/AuditLogging/SqlServer.RealWorld.AuditLogging/SqlServer.RealWorld.AuditLogging.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/EventSourcingSupport/">
+    <Project Path="src/SqlServer/RealWorld/EventSourcingSupport/SqlServer.RealWorld.EventSourcingSupport/SqlServer.RealWorld.EventSourcingSupport.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/LargeScalePagination/">
+    <Project Path="src/SqlServer/RealWorld/LargeScalePagination/SqlServer.RealWorld.LargeScalePagination/SqlServer.RealWorld.LargeScalePagination.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/MultiTenantDatabase/">
+    <Project Path="src/SqlServer/RealWorld/MultiTenantDatabase/SqlServer.RealWorld.MultiTenantDatabase/SqlServer.RealWorld.MultiTenantDatabase.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/QueueTables/">
+    <Project Path="src/SqlServer/RealWorld/QueueTables/SqlServer.RealWorld.QueueTables/SqlServer.RealWorld.QueueTables.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/ReportingDatabase/">
+    <Project Path="src/SqlServer/RealWorld/ReportingDatabase/SqlServer.RealWorld.ReportingDatabase/SqlServer.RealWorld.ReportingDatabase.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/RealWorld/SoftDelete/">
+    <Project Path="src/SqlServer/RealWorld/SoftDelete/SqlServer.RealWorld.SoftDelete/SqlServer.RealWorld.SoftDelete.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/" />
+  <Folder Name="/src/SqlServer/Security/Auditing/">
+    <Project Path="src/SqlServer/Security/Auditing/SqlServer.Security.Auditing/SqlServer.Security.Auditing.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/Authentication/">
+    <Project Path="src/SqlServer/Security/Authentication/SqlServer.Security.Authentication/SqlServer.Security.Authentication.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/Authorization/">
+    <Project Path="src/SqlServer/Security/Authorization/SqlServer.Security.Authorization/SqlServer.Security.Authorization.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/DynamicDataMasking/">
+    <Project Path="src/SqlServer/Security/DynamicDataMasking/SqlServer.Security.DynamicDataMasking/SqlServer.Security.DynamicDataMasking.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/Encryption/">
+    <Project Path="src/SqlServer/Security/Encryption/SqlServer.Security.Encryption/SqlServer.Security.Encryption.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/RolesAndSchemas/">
+    <Project Path="src/SqlServer/Security/RolesAndSchemas/SqlServer.Security.RolesAndSchemas/SqlServer.Security.RolesAndSchemas.csproj" />
+  </Folder>
+  <Folder Name="/src/SqlServer/Security/RowLevelSecurity/">
+    <Project Path="src/SqlServer/Security/RowLevelSecurity/SqlServer.Security.RowLevelSecurity/SqlServer.Security.RowLevelSecurity.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/" />
+  <Folder Name="/src/WebAPI/Fundamentals/" />
+  <Folder Name="/src/WebAPI/Fundamentals/APIConventions/">
+    <Project Path="src/WebAPI/Fundamentals/APIConventions/WebAPI.Fundamentals.APIConventions/WebAPI.Fundamentals.APIConventions.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Fundamentals/Controllers/">
+    <Project Path="src/WebAPI/Fundamentals/Controllers/WebAPI.Fundamentals.Controllers/WebAPI.Fundamentals.Controllers.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Fundamentals/DependencyInjection/">
+    <Project Path="src/WebAPI/Fundamentals/DependencyInjection/WebAPI.Fundamentals.DependencyInjection/WebAPI.Fundamentals.DependencyInjection.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Fundamentals/Filters/">
+    <Project Path="src/WebAPI/Fundamentals/Filters/WebAPI.Fundamentals.Filters/WebAPI.Fundamentals.Filters.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Fundamentals/MinimalAPIs/">
+    <Project Path="src/WebAPI/Fundamentals/MinimalAPIs/WebAPI.Fundamentals.MinimalAPIs/WebAPI.Fundamentals.MinimalAPIs.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Fundamentals/ModelBinding/">
+    <Project Path="src/WebAPI/Fundamentals/ModelBinding/WebAPI.Fundamentals.ModelBinding/WebAPI.Fundamentals.ModelBinding.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Fundamentals/Routing/">
+    <Project Path="src/WebAPI/Fundamentals/Routing/WebAPI.Fundamentals.Routing/WebAPI.Fundamentals.Routing.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/" />
+  <Folder Name="/src/WebAPI/Http/Caching/">
+    <Project Path="src/WebAPI/Http/Caching/WebAPI.Http.Caching/WebAPI.Http.Caching.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/Compression/">
+    <Project Path="src/WebAPI/Http/Compression/WebAPI.Http.Compression/WebAPI.Http.Compression.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/ContentNegotiation/">
+    <Project Path="src/WebAPI/Http/ContentNegotiation/WebAPI.Http.ContentNegotiation/WebAPI.Http.ContentNegotiation.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/Headers/">
+    <Project Path="src/WebAPI/Http/Headers/WebAPI.Http.Headers/WebAPI.Http.Headers.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/HttpMethods/">
+    <Project Path="src/WebAPI/Http/HttpMethods/WebAPI.Http.HttpMethods/WebAPI.Http.HttpMethods.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/MultipartRequests/">
+    <Project Path="src/WebAPI/Http/MultipartRequests/WebAPI.Http.MultipartRequests/WebAPI.Http.MultipartRequests.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/StatusCodes/">
+    <Project Path="src/WebAPI/Http/StatusCodes/WebAPI.Http.StatusCodes/WebAPI.Http.StatusCodes.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Http/Streaming/">
+    <Project Path="src/WebAPI/Http/Streaming/WebAPI.Http.Streaming/WebAPI.Http.Streaming.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/" />
+  <Folder Name="/src/WebAPI/Middleware/CorrelationId/">
+    <Project Path="src/WebAPI/Middleware/CorrelationId/WebAPI.Middleware.CorrelationId/WebAPI.Middleware.CorrelationId.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/CustomMiddleware/">
+    <Project Path="src/WebAPI/Middleware/CustomMiddleware/WebAPI.Middleware.CustomMiddleware/WebAPI.Middleware.CustomMiddleware.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/ExceptionHandling/">
+    <Project Path="src/WebAPI/Middleware/ExceptionHandling/WebAPI.Middleware.ExceptionHandling/WebAPI.Middleware.ExceptionHandling.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/GlobalExceptionHandling/">
+    <Project Path="src/WebAPI/Middleware/GlobalExceptionHandling/WebAPI.Middleware.GlobalExceptionHandling/WebAPI.Middleware.GlobalExceptionHandling.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/MultiTenantMiddleware/">
+    <Project Path="src/WebAPI/Middleware/MultiTenantMiddleware/WebAPI.Middleware.MultiTenantMiddleware/WebAPI.Middleware.MultiTenantMiddleware.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/ProblemDetails/">
+    <Project Path="src/WebAPI/Middleware/ProblemDetails/WebAPI.Middleware.ProblemDetails/WebAPI.Middleware.ProblemDetails.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/RequestLogging/">
+    <Project Path="src/WebAPI/Middleware/RequestLogging/WebAPI.Middleware.RequestLogging/WebAPI.Middleware.RequestLogging.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/RequestPipeline/">
+    <Project Path="src/WebAPI/Middleware/RequestPipeline/WebAPI.Middleware.RequestPipeline/WebAPI.Middleware.RequestPipeline.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Middleware/ResponseWrapping/">
+    <Project Path="src/WebAPI/Middleware/ResponseWrapping/WebAPI.Middleware.ResponseWrapping/WebAPI.Middleware.ResponseWrapping.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/" />
+  <Folder Name="/src/WebAPI/Production/BlueGreenDeployment/">
+    <Project Path="src/WebAPI/Production/BlueGreenDeployment/WebAPI.Production.BlueGreenDeployment/WebAPI.Production.BlueGreenDeployment.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/CanaryDeployment/">
+    <Project Path="src/WebAPI/Production/CanaryDeployment/WebAPI.Production.CanaryDeployment/WebAPI.Production.CanaryDeployment.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/CI-CD/">
+    <Project Path="src/WebAPI/Production/CI-CD/WebAPI.Production.CI-CD/WebAPI.Production.CI-CD.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/CloudDeployment/">
+    <Project Path="src/WebAPI/Production/CloudDeployment/WebAPI.Production.CloudDeployment/WebAPI.Production.CloudDeployment.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/Docker/">
+    <Project Path="src/WebAPI/Production/Docker/WebAPI.Production.Docker/WebAPI.Production.Docker.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/Kubernetes/">
+    <Project Path="src/WebAPI/Production/Kubernetes/WebAPI.Production.Kubernetes/WebAPI.Production.Kubernetes.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/NGINX/">
+    <Project Path="src/WebAPI/Production/NGINX/WebAPI.Production.NGINX/WebAPI.Production.NGINX.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/ProductionHardening/">
+    <Project Path="src/WebAPI/Production/ProductionHardening/WebAPI.Production.ProductionHardening/WebAPI.Production.ProductionHardening.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/ReverseProxy/">
+    <Project Path="src/WebAPI/Production/ReverseProxy/WebAPI.Production.ReverseProxy/WebAPI.Production.ReverseProxy.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/Scaling/">
+    <Project Path="src/WebAPI/Production/Scaling/WebAPI.Production.Scaling/WebAPI.Production.Scaling.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Production/YARP/">
+    <Project Path="src/WebAPI/Production/YARP/WebAPI.Production.YARP/WebAPI.Production.YARP.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/" />
+  <Folder Name="/src/WebAPI/Security/APIKeys/">
+    <Project Path="src/WebAPI/Security/APIKeys/WebAPI.Security.APIKeys/WebAPI.Security.APIKeys.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/Authorization/">
+    <Project Path="src/WebAPI/Security/Authorization/WebAPI.Security.Authorization/WebAPI.Security.Authorization.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/ClaimsBasedAuthorization/">
+    <Project Path="src/WebAPI/Security/ClaimsBasedAuthorization/WebAPI.Security.ClaimsBasedAuthorization/WebAPI.Security.ClaimsBasedAuthorization.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/CORS/">
+    <Project Path="src/WebAPI/Security/CORS/WebAPI.Security.CORS/WebAPI.Security.CORS.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/CSRF/">
+    <Project Path="src/WebAPI/Security/CSRF/WebAPI.Security.CSRF/WebAPI.Security.CSRF.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/Identity/">
+    <Project Path="src/WebAPI/Security/Identity/WebAPI.Security.Identity/WebAPI.Security.Identity.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/JWTAuthentication/">
+    <Project Path="src/WebAPI/Security/JWTAuthentication/WebAPI.Security.JWTAuthentication/WebAPI.Security.JWTAuthentication.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/OAuth2/">
+    <Project Path="src/WebAPI/Security/OAuth2/WebAPI.Security.OAuth2/WebAPI.Security.OAuth2.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/OpenIdConnect/">
+    <Project Path="src/WebAPI/Security/OpenIdConnect/WebAPI.Security.OpenIdConnect/WebAPI.Security.OpenIdConnect.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/PolicyBasedAuthorization/">
+    <Project Path="src/WebAPI/Security/PolicyBasedAuthorization/WebAPI.Security.PolicyBasedAuthorization/WebAPI.Security.PolicyBasedAuthorization.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/RateLimiting/">
+    <Project Path="src/WebAPI/Security/RateLimiting/WebAPI.Security.RateLimiting/WebAPI.Security.RateLimiting.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/RefreshTokens/">
+    <Project Path="src/WebAPI/Security/RefreshTokens/WebAPI.Security.RefreshTokens/WebAPI.Security.RefreshTokens.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Security/SecurityHeaders/">
+    <Project Path="src/WebAPI/Security/SecurityHeaders/WebAPI.Security.SecurityHeaders/WebAPI.Security.SecurityHeaders.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/SwaggerAndOpenAPI/" />
+  <Folder Name="/src/WebAPI/SwaggerAndOpenAPI/APIContracts/">
+    <Project Path="src/WebAPI/SwaggerAndOpenAPI/APIContracts/WebAPI.SwaggerAndOpenAPI.APIContracts/WebAPI.SwaggerAndOpenAPI.APIContracts.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/SwaggerAndOpenAPI/APIExamples/">
+    <Project Path="src/WebAPI/SwaggerAndOpenAPI/APIExamples/WebAPI.SwaggerAndOpenAPI.APIExamples/WebAPI.SwaggerAndOpenAPI.APIExamples.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/SwaggerAndOpenAPI/OpenAPI/">
+    <Project Path="src/WebAPI/SwaggerAndOpenAPI/OpenAPI/WebAPI.SwaggerAndOpenAPI.OpenAPI/WebAPI.SwaggerAndOpenAPI.OpenAPI.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/SwaggerAndOpenAPI/Swagger/">
+    <Project Path="src/WebAPI/SwaggerAndOpenAPI/Swagger/WebAPI.SwaggerAndOpenAPI.Swagger/WebAPI.SwaggerAndOpenAPI.Swagger.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/SwaggerAndOpenAPI/XMLComments/">
+    <Project Path="src/WebAPI/SwaggerAndOpenAPI/XMLComments/WebAPI.SwaggerAndOpenAPI.XMLComments/WebAPI.SwaggerAndOpenAPI.XMLComments.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Validation/" />
+  <Folder Name="/src/WebAPI/Validation/CustomValidation/">
+    <Project Path="src/WebAPI/Validation/CustomValidation/WebAPI.Validation.CustomValidation/WebAPI.Validation.CustomValidation.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Validation/FluentValidation/">
+    <Project Path="src/WebAPI/Validation/FluentValidation/WebAPI.Validation.FluentValidation/WebAPI.Validation.FluentValidation.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Validation/ModelValidation/">
+    <Project Path="src/WebAPI/Validation/ModelValidation/WebAPI.Validation.ModelValidation/WebAPI.Validation.ModelValidation.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Validation/RequestValidationPipeline/">
+    <Project Path="src/WebAPI/Validation/RequestValidationPipeline/WebAPI.Validation.RequestValidationPipeline/WebAPI.Validation.RequestValidationPipeline.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Versioning/" />
+  <Folder Name="/src/WebAPI/Versioning/HeaderVersioning/">
+    <Project Path="src/WebAPI/Versioning/HeaderVersioning/WebAPI.Versioning.HeaderVersioning/WebAPI.Versioning.HeaderVersioning.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Versioning/MediaTypeVersioning/">
+    <Project Path="src/WebAPI/Versioning/MediaTypeVersioning/WebAPI.Versioning.MediaTypeVersioning/WebAPI.Versioning.MediaTypeVersioning.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Versioning/QueryStringVersioning/">
+    <Project Path="src/WebAPI/Versioning/QueryStringVersioning/WebAPI.Versioning.QueryStringVersioning/WebAPI.Versioning.QueryStringVersioning.csproj" />
+  </Folder>
+  <Folder Name="/src/WebAPI/Versioning/URLVersioning/">
+    <Project Path="src/WebAPI/Versioning/URLVersioning/WebAPI.Versioning.URLVersioning/WebAPI.Versioning.URLVersioning.csproj" />
+  </Folder>
+</Solution>

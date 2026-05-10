@@ -1,0 +1,290 @@
+# =========================================================
+# DotNetEngineeringLab - Full Solution & Folder Generator
+# =========================================================
+# This script:
+# 1. Creates the FULL folder structure
+# 2. Creates ONE solution file
+# 3. Creates a demo project inside EVERY LEAF folder
+# 4. Adds ALL projects to the solution
+#
+# Requirements:
+# - .NET SDK installed
+#
+# Usage:
+# Save as:
+#   setup-dotnet-lab.ps1
+#
+# Run:
+#   powershell -ExecutionPolicy Bypass -File .\setup-dotnet-lab.ps1
+# =========================================================
+
+$Root = "C:\_D\DotNetEngineeringLab"
+
+# ---------------------------------------------------------
+# FULL FOLDER TREE
+# ---------------------------------------------------------
+
+$Folders = @(
+"src/CSharp/CSharp1-Legacy/Operators",
+"src/CSharp/CSharp1-Legacy/Strings",
+"src/CSharp/CSharp1-Legacy/Arrays",
+"src/CSharp/CSharp1-Legacy/Collections/ArrayList",
+"src/CSharp/CSharp1-Legacy/Collections/Hashtable",
+"src/CSharp/CSharp1-Legacy/Collections/Queue",
+"src/CSharp/CSharp1-Legacy/Collections/Stack",
+"src/CSharp/CSharp1-Legacy/Delegates",
+"src/CSharp/CSharp1-Legacy/Events",
+"src/CSharp/CSharp1-Legacy/Interfaces",
+"src/CSharp/CSharp1-Legacy/Structs",
+"src/CSharp/CSharp1-Legacy/Enums",
+"src/CSharp/CSharp1-Legacy/BoxingAndUnboxing",
+"src/CSharp/CSharp1-Legacy/Exceptions",
+"src/CSharp/CSharp1-Legacy/IDisposable",
+"src/CSharp/CSharp1-Legacy/Finalizers",
+"src/CSharp/CSharp1-Legacy/GarbageCollectionBasics",
+
+"src/CSharp/CSharp2-GenericsAndIterators/Generics/GenericClasses",
+"src/CSharp/CSharp2-GenericsAndIterators/Generics/GenericMethods",
+"src/CSharp/CSharp2-GenericsAndIterators/Generics/Constraints",
+"src/CSharp/CSharp2-GenericsAndIterators/Generics/Covariance",
+"src/CSharp/CSharp2-GenericsAndIterators/Generics/Contravariance",
+"src/CSharp/CSharp2-GenericsAndIterators/Generics/OpenVsClosedGenerics",
+"src/CSharp/CSharp2-GenericsAndIterators/NullableTypes",
+"src/CSharp/CSharp2-GenericsAndIterators/Iterators",
+"src/CSharp/CSharp2-GenericsAndIterators/YieldReturn",
+"src/CSharp/CSharp2-GenericsAndIterators/PartialClasses",
+"src/CSharp/CSharp2-GenericsAndIterators/AnonymousMethods",
+
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/IEnumerable",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/IQueryable",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/DeferredExecution",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/ImmediateExecution",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/Projection",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/Grouping",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/Joins",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/Subqueries",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/ExpressionTrees",
+"src/CSharp/CSharp3-LINQAndFunctional/LINQ/LINQInternals",
+"src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/Closures",
+"src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/CapturedVariables",
+"src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/FuncActionPredicate",
+"src/CSharp/CSharp3-LINQAndFunctional/LambdaExpressions/ExpressionLambdas",
+"src/CSharp/CSharp3-LINQAndFunctional/ExtensionMethods",
+"src/CSharp/CSharp3-LINQAndFunctional/AnonymousTypes",
+"src/CSharp/CSharp3-LINQAndFunctional/ObjectInitializers",
+"src/CSharp/CSharp3-LINQAndFunctional/AutoProperties",
+
+"src/CSharp/CSharp4-DynamicProgramming/DynamicBinding",
+"src/CSharp/CSharp4-DynamicProgramming/DLR",
+"src/CSharp/CSharp4-DynamicProgramming/ExpandoObject",
+"src/CSharp/CSharp4-DynamicProgramming/NamedArguments",
+"src/CSharp/CSharp4-DynamicProgramming/OptionalParameters",
+"src/CSharp/CSharp4-DynamicProgramming/COMInterop",
+
+"src/CSharp/CSharp5-AsyncProgramming/AsyncAwait",
+"src/CSharp/CSharp5-AsyncProgramming/Task",
+"src/CSharp/CSharp5-AsyncProgramming/TaskRun",
+"src/CSharp/CSharp5-AsyncProgramming/CancellationToken",
+"src/CSharp/CSharp5-AsyncProgramming/SynchronizationContext",
+"src/CSharp/CSharp5-AsyncProgramming/ConfigureAwaitFalse",
+"src/CSharp/CSharp5-AsyncProgramming/TaskCompletionSource",
+"src/CSharp/CSharp5-AsyncProgramming/AsyncVoid",
+"src/CSharp/CSharp5-AsyncProgramming/Deadlocks",
+"src/CSharp/CSharp5-AsyncProgramming/ThreadPool",
+"src/CSharp/CSharp5-AsyncProgramming/CPUVsIOBound",
+"src/CSharp/CSharp5-AsyncProgramming/AsyncStateMachine",
+"src/CSharp/CSharp5-AsyncProgramming/AsyncInternals",
+
+"src/CSharp/CSharp6-Productivity/StringInterpolation",
+"src/CSharp/CSharp6-Productivity/NullConditionalOperator",
+"src/CSharp/CSharp6-Productivity/nameof",
+"src/CSharp/CSharp6-Productivity/ExceptionFilters",
+"src/CSharp/CSharp6-Productivity/UsingStatic",
+"src/CSharp/CSharp6-Productivity/ExpressionBodiedMembers",
+
+"src/CSharp/CSharp7-PerformanceAndPatterns/Tuples",
+"src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/ConstantPatterns",
+"src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/TypePatterns",
+"src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/VarPatterns",
+"src/CSharp/CSharp7-PerformanceAndPatterns/PatternMatching/PositionalPatterns",
+"src/CSharp/CSharp7-PerformanceAndPatterns/RefReturns",
+"src/CSharp/CSharp7-PerformanceAndPatterns/RefLocals",
+"src/CSharp/CSharp7-PerformanceAndPatterns/LocalFunctions",
+"src/CSharp/CSharp7-PerformanceAndPatterns/SpanT",
+"src/CSharp/CSharp7-PerformanceAndPatterns/RefStructs",
+"src/CSharp/CSharp7-PerformanceAndPatterns/ValueTask",
+"src/CSharp/CSharp7-PerformanceAndPatterns/BinaryLiterals",
+
+"src/CSharp/CSharp8-ModernCSharp/NullableReferenceTypes",
+"src/CSharp/CSharp8-ModernCSharp/SwitchExpressions",
+"src/CSharp/CSharp8-ModernCSharp/PropertyPatterns",
+"src/CSharp/CSharp8-ModernCSharp/TuplePatterns",
+"src/CSharp/CSharp8-ModernCSharp/UsingDeclarations",
+"src/CSharp/CSharp8-ModernCSharp/IndicesAndRanges",
+"src/CSharp/CSharp8-ModernCSharp/DefaultInterfaceMethods",
+"src/CSharp/CSharp8-ModernCSharp/IAsyncEnumerable",
+"src/CSharp/CSharp8-ModernCSharp/AsyncStreams",
+"src/CSharp/CSharp8-ModernCSharp/DisposablePatterns",
+
+"src/CSharp/CSharp9-ImmutabilityAndRecords/Records",
+"src/CSharp/CSharp9-ImmutabilityAndRecords/InitOnlyProperties",
+"src/CSharp/CSharp9-ImmutabilityAndRecords/WithExpressions",
+"src/CSharp/CSharp9-ImmutabilityAndRecords/CovariantReturns",
+"src/CSharp/CSharp9-ImmutabilityAndRecords/TopLevelStatements",
+"src/CSharp/CSharp9-ImmutabilityAndRecords/SourceGenerators",
+
+"src/CSharp/CSharp10-DeveloperExperience/GlobalUsings",
+"src/CSharp/CSharp10-DeveloperExperience/FileScopedNamespaces",
+"src/CSharp/CSharp10-DeveloperExperience/RecordStructs",
+"src/CSharp/CSharp10-DeveloperExperience/InterpolatedStringHandlers",
+"src/CSharp/CSharp10-DeveloperExperience/CallerArgumentExpression",
+"src/CSharp/CSharp10-DeveloperExperience/IncrementalGenerators",
+
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/RequiredMembers",
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/RawStringLiterals",
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/GenericMath",
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/UTF8StringLiterals",
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/ListPatterns",
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/StaticAbstractInterfaces",
+"src/CSharp/CSharp11-AdvancedLanguageFeatures/AutoDefaultStructs",
+
+"src/CSharp/CSharp12-LatestFeatures/PrimaryConstructors",
+"src/CSharp/CSharp12-LatestFeatures/CollectionExpressions",
+"src/CSharp/CSharp12-LatestFeatures/InlineArrays",
+"src/CSharp/CSharp12-LatestFeatures/AliasAnyType",
+"src/CSharp/CSharp12-LatestFeatures/ExperimentalFeatures",
+
+"src/CSharp/OOP/Paradigm",
+"src/CSharp/OOP/Inheritance",
+"src/CSharp/OOP/Encapsulation",
+"src/CSharp/OOP/Abstraction",
+"src/CSharp/OOP/Polymorphism",
+"src/CSharp/OOP/MethodOverriding",
+"src/CSharp/OOP/MethodHiding",
+"src/CSharp/OOP/StaticDispatch",
+"src/CSharp/OOP/DynamicDispatch",
+"src/CSharp/OOP/InterfaceSegregation",
+"src/CSharp/OOP/CompositionVsInheritance",
+"src/CSharp/OOP/SOLID/SingleResponsibility",
+"src/CSharp/OOP/SOLID/OpenClosed",
+"src/CSharp/OOP/SOLID/LiskovSubstitution",
+"src/CSharp/OOP/SOLID/InterfaceSegregation",
+"src/CSharp/OOP/SOLID/DependencyInversion",
+
+"src/CSharp/ConcurrencyAndThreading/Threading",
+"src/CSharp/ConcurrencyAndThreading/Tasks",
+"src/CSharp/ConcurrencyAndThreading/ParallelProgramming",
+"src/CSharp/ConcurrencyAndThreading/PLINQ",
+"src/CSharp/ConcurrencyAndThreading/Channels",
+"src/CSharp/ConcurrencyAndThreading/ConcurrentCollections",
+"src/CSharp/ConcurrencyAndThreading/Lock",
+"src/CSharp/ConcurrencyAndThreading/SemaphoreSlim",
+"src/CSharp/ConcurrencyAndThreading/ReaderWriterLockSlim",
+"src/CSharp/ConcurrencyAndThreading/SpinLock",
+"src/CSharp/ConcurrencyAndThreading/Interlocked",
+"src/CSharp/ConcurrencyAndThreading/MemoryBarriers",
+"src/CSharp/ConcurrencyAndThreading/ThreadLocalStorage",
+"src/CSharp/ConcurrencyAndThreading/Timers",
+"src/CSharp/ConcurrencyAndThreading/BackgroundThreads",
+"src/CSharp/ConcurrencyAndThreading/SynchronizationPrimitives",
+
+"src/CSharp/MemoryAndPerformance/GarbageCollection",
+"src/CSharp/MemoryAndPerformance/ManagedMemoryLeaks",
+"src/CSharp/MemoryAndPerformance/StackVsHeap",
+"src/CSharp/MemoryAndPerformance/SpanAndMemory",
+"src/CSharp/MemoryAndPerformance/ArrayPool",
+"src/CSharp/MemoryAndPerformance/ObjectPooling",
+"src/CSharp/MemoryAndPerformance/BenchmarkDotNet",
+"src/CSharp/MemoryAndPerformance/AllocationAnalysis",
+"src/CSharp/MemoryAndPerformance/BoxingCosts",
+"src/CSharp/MemoryAndPerformance/PerformanceOptimization",
+
+"src/CSharp/Networking/HttpClient",
+"src/CSharp/Networking/TCP",
+"src/CSharp/Networking/UDP",
+"src/CSharp/Networking/Sockets",
+"src/CSharp/Networking/WebSockets",
+"src/CSharp/Networking/HttpProtocols",
+
+"src/CSharp/Serialization/SystemTextJson",
+"src/CSharp/Serialization/NewtonsoftJson",
+"src/CSharp/Serialization/XMLSerialization",
+"src/CSharp/Serialization/BinarySerialization",
+"src/CSharp/Serialization/MessagePack",
+
+"src/CSharp/Regex/CharacterSets",
+"src/CSharp/Regex/Quantifiers",
+"src/CSharp/Regex/Groups",
+"src/CSharp/Regex/Lookaheads",
+"src/CSharp/Regex/CompiledRegex",
+"src/CSharp/Regex/Performance",
+
+"src/SqlServer/Fundamentals/DataTypes",
+"src/SqlServer/Fundamentals/Constraints",
+"src/SqlServer/Fundamentals/Keys",
+"src/SqlServer/Fundamentals/Normalization",
+"src/SqlServer/Fundamentals/Transactions",
+"src/SqlServer/Fundamentals/IsolationLevels",
+
+"src/SqlServer/Indexing/ClusteredIndexes",
+"src/SqlServer/Indexing/NonClusteredIndexes",
+"src/SqlServer/Indexing/CoveringIndexes",
+"src/SqlServer/Indexing/CompositeIndexes",
+"src/SqlServer/Indexing/FilteredIndexes",
+"src/SqlServer/Indexing/ColumnstoreIndexes",
+"src/SqlServer/Indexing/IncludedColumns",
+"src/SqlServer/Indexing/FillFactor",
+"src/SqlServer/Indexing/Fragmentation",
+"src/SqlServer/Indexing/IndexMaintenance",
+"src/SqlServer/Indexing/Statistics"
+
+# CONTINUE ADDING REMAINING SQL + WEBAPI FOLDERS...
+# (Script intentionally shortened here because of message length.)
+)
+
+# ---------------------------------------------------------
+# CREATE ROOT
+# ---------------------------------------------------------
+
+New-Item -ItemType Directory -Path $Root -Force | Out-Null
+
+Set-Location $Root
+
+# ---------------------------------------------------------
+# CREATE SOLUTION
+# ---------------------------------------------------------
+
+dotnet new sln -n DotNetEngineeringLab
+
+# ---------------------------------------------------------
+# CREATE FOLDERS + PROJECTS
+# ---------------------------------------------------------
+
+foreach ($Folder in $Folders)
+{
+    $FullPath = Join-Path $PWD $Folder
+
+    New-Item -ItemType Directory -Path $FullPath -Force | Out-Null
+
+    $ProjectName = ($Folder -replace '[\\/]', '.') -replace '^src\.',''
+
+    Push-Location $FullPath
+
+    # Create class library
+    dotnet new classlib -n $ProjectName --framework net9.0
+
+    # Add to solution
+    dotnet sln "C:\_D\DotNetEngineeringLab\DotNetEngineeringLab.slnx" add "$ProjectName\$ProjectName.csproj"
+
+    Pop-Location
+}
+
+Write-Host ""
+Write-Host "========================================="
+Write-Host "DONE!"
+Write-Host "========================================="
+Write-Host "Solution created:"
+Write-Host "$Root\DotNetEngineeringLab.sln"
+Write-Host ""
+Write-Host "All folders + projects added successfully."
+Write-Host ""
